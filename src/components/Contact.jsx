@@ -24,20 +24,26 @@ export default function Contact() {
           <div className={styles.links}>
             <ul className={styles.grid}>
               <li><i><FiPhone/></i> (88) 99438-6181</li>
-              <li><i>< FiMail/></i>
-              <a className={styles.contactButton} href="mailto:joseednario637@gmail.com">joseednario637@gmail.com
+              <li>
+              <a className={styles.contactButton} href="mailto:joseednario637@gmail.com">
+                <i>< FiMail/></i>
+                joseednario637@gmail.com
               </a></li>
               <li>
+              
+              <a className={styles.contactButton} href="https://instagram.com/ednario_andrade">
               <i>< FiInstagram/></i>
-              <a className={styles.contactButton} href="https://instagram.com/ednario_andrade">Instagram
+              Instagram
               </a></li>
               <li>
+              <a className={styles.contactButton} href="https://facebook.com/ednario.lima.3/">
               <i>< FiFacebook/></i>
-              <a className={styles.contactButton} href="https://facebook.com/ednario.lima.3/">Facebook
+              Facebook
               </a></li>
               <li>
+              <a className={styles.contactButton} href="https://twitter.com/EdnarioAndrade">
               <i>< FiTwitter/></i>
-              <a className={styles.contactButton} href="https://twitter.com/EdnarioAndrade">Twitter
+              Twitter
               </a></li>
             </ul>
           </div>
