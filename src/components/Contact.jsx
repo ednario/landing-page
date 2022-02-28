@@ -23,7 +23,7 @@ export default function Contact() {
 
           <div className={styles.links}>
             <ul className={styles.grid}>
-              <li><i><FiPhone/></i> 88 99438-6181</li>
+              <li><i><FiPhone/></i> (88) 99438-6181</li>
               <li><i><FiMail /></i> joseednario637@gmail.com</li>
               <li>
                 <a href="https://instagram.com/ednario_andrade" target="_blank" rel="noreferrer">
