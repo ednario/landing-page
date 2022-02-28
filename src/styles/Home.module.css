@@ -347,7 +347,9 @@
   opacity: 1;
   transform: translateY(0);
 }
-
+.contactButton{
+  color: var(--background-color);
+}
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {

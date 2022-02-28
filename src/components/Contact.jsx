@@ -23,23 +23,29 @@ export default function Contact() {
 
           <div className={styles.links}>
             <ul className={styles.grid}>
-              <li><i><FiPhone/></i> (88) 99438-6181</li>
-              <li><i><FiMail /></i> joseednario637@gmail.com</li>
-              <li>
-                <a href="https://instagram.com/ednario_andrade" target="_blank" rel="noreferrer">
-                   <i><FiInstagram /></i>
-                  </a>Instagram
-              </li>
-              <li>
-                 <a href="https://facebook.com/ednario.lima.3/" target="_blank" rel="noreferrer">
-                   <i><FiFacebook /></i>
-                 </a>Facebook
-              </li>
-              <li>
-                 <a href="https://twitter.com/EdnarioAndrade" target="_blank" rel="noreferrer">
-                   <i className="iconTwitter"><FiTwitter /></i>
-                 </a>Twitter
-              </li>
+            <a className={styles.button}
+              target="_blank" rel="noreferrer">
+                <i><FiPhone/></i>(88) 99438-6181</a>
+
+            <a  className={styles.button}
+             href="mailto:joseednario637@gmail.com"
+              target="_blank" rel="noreferrer">
+                <i><FiMail/></i> Email</a>
+            
+            <a  className={styles.button}
+             href="https://instagram.com/ednario_andrade"
+              target="_blank" rel="noreferrer">
+                <i><FiInstagram/></i> Instagram</a>
+
+            <a  className={styles.button}
+             href="https://facebook.com/ednario.lima.3/"
+              target="_blank" rel="noreferrer">
+                <i><FiFacebook/></i> Facebook</a>
+
+            <a  className={styles.button}
+             href="https://twitter.com/EdnarioAndrade"
+              target="_blank" rel="noreferrer">
+                <i><FiTwitter/></i> Twitter</a>
             </ul>
           </div>
         </div>
