@@ -23,29 +23,22 @@ export default function Contact() {
 
           <div className={styles.links}>
             <ul className={styles.grid}>
-            <a className={styles.button}
-              target="_blank" rel="noreferrer">
-                <i><FiPhone/></i>(88) 99438-6181</a>
-
-            <a  className={styles.button}
-             href="mailto:joseednario637@gmail.com"
-              target="_blank" rel="noreferrer">
-                <i><FiMail/></i> Email</a>
-            
-            <a  className={styles.button}
-             href="https://instagram.com/ednario_andrade"
-              target="_blank" rel="noreferrer">
-                <i><FiInstagram/></i> Instagram</a>
-
-            <a  className={styles.button}
-             href="https://facebook.com/ednario.lima.3/"
-              target="_blank" rel="noreferrer">
-                <i><FiFacebook/></i> Facebook</a>
-
-            <a  className={styles.button}
-             href="https://twitter.com/EdnarioAndrade"
-              target="_blank" rel="noreferrer">
-                <i><FiTwitter/></i> Twitter</a>
+              <li><i><FiPhone/></i> (88) 99438-6181</li>
+              <li><i>< FiMail/></i>
+              <a className={styles.contactButton} href="mailto:joseednario637@gmail.com">joseednario637@gmail.com
+              </a></li>
+              <li>
+              <i>< FiInstagram/></i>
+              <a className={styles.contactButton} href="https://instagram.com/ednario_andrade">Instagram
+              </a></li>
+              <li>
+              <i>< FiFacebook/></i>
+              <a className={styles.contactButton} href="https://facebook.com/ednario.lima.3/">Facebook
+              </a></li>
+              <li>
+              <i>< FiTwitter/></i>
+              <a className={styles.contactButton} href="https://twitter.com/EdnarioAndrade">Twitter
+              </a></li>
             </ul>
           </div>
         </div>
