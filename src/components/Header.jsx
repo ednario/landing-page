@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.css';
-import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Header() {
   return ( 
